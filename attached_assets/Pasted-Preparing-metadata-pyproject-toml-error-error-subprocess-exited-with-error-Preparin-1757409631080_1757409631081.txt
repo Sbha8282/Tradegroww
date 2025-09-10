@@ -1,0 +1,118 @@
+Preparing metadata (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 2
+  ╰─> [102 lines of output]
+      + meson setup C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\.mesonpy-diixivgb\build -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --vsenv --native-file=C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\.mesonpy-diixivgb\build\meson-python-native-file.ini
+      The Meson build system
+      Version: 1.2.1
+      Source dir: C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a
+      Build dir: C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\.mesonpy-diixivgb\build
+      Build type: native build
+      Project name: pandas
+      Project version: 2.2.2
+      Activating VS 16.11.48
+      C compiler for the host machine: cl (msvc 19.29.30159 "Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64")
+      C linker for the host machine: link link 14.29.30159.0
+      C++ compiler for the host machine: cl (msvc 19.29.30159 "Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64")
+      C++ linker for the host machine: link link 14.29.30159.0
+      Cython compiler for the host machine: cython (cython 3.0.5)
+      Host machine cpu family: x86_64
+      Host machine cpu: x86_64
+      Program python found: YES (C:\Python313\python.exe)
+      Run-time dependency python found: YES 3.13
+      Build targets in project: 53
+
+      pandas 2.2.2
+
+        User defined options
+          Native files: C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\.mesonpy-diixivgb\build\meson-python-native-file.ini
+          buildtype   : release
+          vsenv       : True
+          b_ndebug    : if-release
+          b_vscrt     : md
+
+      Found ninja.EXE-1.13.0.git.kitware.jobserver-pipe-1 at C:\Users\subhamoy\AppData\Local\Temp\pip-build-env-16b8p_4c\normal\Scripts\ninja.EXE
+
+      Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper:
+      C:\Users\subhamoy\AppData\Local\Temp\pip-build-env-16b8p_4c\overlay\Scripts\meson compile -C .
+      + meson compile
+      [1/151] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+      [2/151] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+      [3/151] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+      [4/151] Generating pandas/_libs/index_class_helper_pxi with a custom command
+      [5/151] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+      [6/151] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+      [7/151] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+      [8/151] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+      [9/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/base.pyx
+      [10/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/ccalendar.pyx
+      [11/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/dtypes.pyx
+      [12/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/nattype.pyx
+      warning: C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\pandas\_libs\tslibs\nattype.pyx:79:0: Global name __nat_unpickle matched from within class scope in contradiction to to Python 'class private name' rules. This may change in a future release.
+      warning: C:\Users\subhamoy\AppData\Local\Temp\pip-install-6nwz8ri8\pandas_946e4e750f5b4eeab74137fca888885a\pandas\_libs\tslibs\nattype.pyx:79:0: Global name __nat_unpickle matched from within class scope in contradiction to to Python 'class private name' rules. This may change in a future release.
+      [13/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/np_datetime.pyx
+      [14/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/timezones.pyx
+      [15/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/fields.pyx
+      [16/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/parsing.pyx
+      [17/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/conversion.pyx
+      [18/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/strptime.pyx
+      [19/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/timestamps.pyx
+      [20/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/offsets.pyx
+      [21/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/timedeltas.pyx
+      [22/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/period.pyx
+      [23/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/indexing.pyx
+      [24/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/vectorized.pyx
+      [25/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslibs/tzconversion.pyx
+      [26/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/arrays.pyx
+      [27/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/hashing.pyx
+      [28/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/ops_dispatch.pyx
+      [29/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/properties.pyx
+      [30/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/missing.pyx
+      [31/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/internals.pyx
+      [32/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/byteswap.pyx
+      [33/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/ops.pyx
+      [34/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/sas.pyx
+      [35/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/index.pyx
+      [36/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/parsers.pyx
+      [37/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/reshape.pyx
+      [38/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/lib.pyx
+      [39/151] Compiling C object pandas/_libs/tslibs/ccalendar.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.obj
+      FAILED: [code=2] pandas/_libs/tslibs/ccalendar.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.obj
+      "cl" "-Ipandas\_libs\tslibs\ccalendar.cp313-win_amd64.pyd.p" "-Ipandas\_libs\tslibs" "-I..\..\pandas\_libs\tslibs" "-I..\..\..\..\pip-build-env-16b8p_4c\overlay\Lib\site-packages\numpy\_core\include" "-I..\..\pandas\_libs\include" "-IC:\Python313\Include" "-DNDEBUG" "/MD" "/nologo" "/showIncludes" "/utf-8" "-w" "/std:c11" "/O2" "/Gw" "-DNPY_NO_DEPRECATED_API=0" "-DNPY_TARGET_VERSION=NPY_1_21_API_VERSION" "/Fdpandas\_libs\tslibs\ccalendar.cp313-win_amd64.pyd.p\meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.pdb" /Fopandas/_libs/tslibs/ccalendar.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.obj "/c" pandas/_libs/tslibs/ccalendar.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/ccalendar.pyx.c
+      pandas/_libs/tslibs/ccalendar.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/ccalendar.pyx.c(1973): fatal error C1083: Cannot open include file: 'stdalign.h': No such file or directory
+      [40/151] Compiling C object pandas/_libs/tslibs/base.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_base.pyx.c.obj
+      FAILED: [code=2] pandas/_libs/tslibs/base.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_base.pyx.c.obj    
+      "cl" "-Ipandas\_libs\tslibs\base.cp313-win_amd64.pyd.p" "-Ipandas\_libs\tslibs" "-I..\..\pandas\_libs\tslibs" "-I..\..\..\..\pip-build-env-16b8p_4c\overlay\Lib\site-packages\numpy\_core\include" "-I..\..\pandas\_libs\include" "-IC:\Python313\Include" "-DNDEBUG" "/MD" "/nologo" "/showIncludes" "/utf-8" "-w" "/std:c11" "/O2" "/Gw" "-DNPY_NO_DEPRECATED_API=0" "-DNPY_TARGET_VERSION=NPY_1_21_API_VERSION" "/Fdpandas\_libs\tslibs\base.cp313-win_amd64.pyd.p\meson-generated_pandas__libs_tslibs_base.pyx.c.pdb" /Fopandas/_libs/tslibs/base.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_base.pyx.c.obj "/c" pandas/_libs/tslibs/base.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/base.pyx.c
+      pandas/_libs/tslibs/base.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/base.pyx.c(1970): fatal error C1083: Cannot open include file: 'stdalign.h': No such file or directory
+      [41/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/testing.pyx
+      [42/151] Compiling C object pandas/_libs/tslibs/dtypes.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.obj
+      FAILED: [code=2] pandas/_libs/tslibs/dtypes.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.obj
+      "cl" "-Ipandas\_libs\tslibs\dtypes.cp313-win_amd64.pyd.p" "-Ipandas\_libs\tslibs" "-I..\..\pandas\_libs\tslibs" "-I..\..\..\..\pip-build-env-16b8p_4c\overlay\Lib\site-packages\numpy\_core\include" "-I..\..\pandas\_libs\include" "-IC:\Python313\Include" "-DNDEBUG" "/MD" "/nologo" "/showIncludes" "/utf-8" "-w" "/std:c11" "/O2" "/Gw" "-DNPY_NO_DEPRECATED_API=0" "-DNPY_TARGET_VERSION=NPY_1_21_API_VERSION" "/Fdpandas\_libs\tslibs\dtypes.cp313-win_amd64.pyd.p\meson-generated_pandas__libs_tslibs_dtypes.pyx.c.pdb" /Fopandas/_libs/tslibs/dtypes.cp313-win_amd64.pyd.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.obj "/c" pandas/_libs/tslibs/dtypes.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/dtypes.pyx.c
+      pandas/_libs/tslibs/dtypes.cp313-win_amd64.pyd.p/pandas/_libs/tslibs/dtypes.pyx.c(2592): fatal error C1083: Cannot open include file: 'stdalign.h': No such file or directory
+      [43/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/tslib.pyx
+      [44/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/join.pyx
+      [45/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/writers.pyx
+      [46/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/interval.pyx
+      [47/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/window/indexers.pyx
+      [48/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/window/aggregations.pyx
+      [49/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/sparse.pyx
+      [50/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/algos.pyx
+      [51/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/hashtable.pyx
+      [52/151] Compiling Cython source C:/Users/subhamoy/AppData/Local/Temp/pip-install-6nwz8ri8/pandas_946e4e750f5b4eeab74137fca888885a/pandas/_libs/groupby.pyx
+      ninja: build stopped: subcommand failed.
+      Activating VS 16.11.48
+      INFO: automatically activated MSVC compiler environment
+      INFO: autodetecting backend as ninja
+      INFO: calculating backend command to run: C:\Users\subhamoy\AppData\Local\Temp\pip-build-env-16b8p_4c\normal\Scripts\ninja.EXE
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
